@@ -16,3 +16,4 @@
 ShaderLog-*
 .vs/
 **/*.vcxproj.user
+/devtools/

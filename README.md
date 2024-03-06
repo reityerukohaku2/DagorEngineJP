@@ -1,46 +1,68 @@
-## How to Build: Environment
-Requirements for building and using the Dagor Engine toolkit: Windows 10 (x64), 16 GB of RAM, 200 GB of HDD/SSD space.
+## 環境構築
+Dagor Engineツールキットの使用に関する要件は以下の通りです。
+- Windows10 (x64)
+- 16GB以上のRAM容量
+- 200GB以上のHDD/SDD容量
 
-* Install Git: https://git-scm.com/download/win
-* Install 7-Zip: https://www.7-zip.org/
-* Install Python 3
-* If you plan to use the FMOD sound library, also install FMOD Studio SDK 2.02.15
+また、以下のソフトウェアが必要です。
 
-Create a project folder at the root of any drive (the folder name should not contain spaces or non-Latin characters).
+* Git: https://git-scm.com/download/win
+* 7-Zip: https://www.7-zip.org/
+* Python 3
+* FMOD soundライブラリを利用する場合、FMOD Studio SDK 2.02.15のインストールが必要です。
+
+任意のドライブのルートディレクトリに、プロジェクトフォルダを作成します（フォルダ名は英数字のみを使用すること、スペースを含めてはいけません）。
+
 ```
 md X:\develop && cd X:\develop
 ```
 
-Clone the Dagor Engine source code and samples:
+以下のコマンドで、DagorEngineをクローンしてください。
 ```
 git clone https://github.com/GaijinEntertainment/DagorEngine.git
 cd DagorEngine
 ```
 
-Run the `make_devtools.py` script. This script will download, install, and configure the build toolkit. You should provide the path to the build toolkit folder as an argument, and the script will create this folder if it doesn't exist.
+次に、`make_devtoold.py`を実行します。これは、ビルドツールキットをダウンロード、インストール、構成を行うツールです。<br>
+実行の際には、ビルドツールキットをインストールするフォルダへのパスを引数としてしているす必要があります。<br>
+指定されたフォルダが存在しない場合は、自動的に作成されます。
+
+以下は、`make_devtoods.py`の実行コマンドです。
+インストール先フォルダの例として、`X:\develop\devtools`を指定しています。
 
 ```
 python3 make_devtools.py X:\develop\devtools
 ```
 
-If the script is not run as an administrator, installers of certain programs may request permission for installation, which you should grant. If you plan to use plugins for 3ds Max, press 'Y' when the script asks if you want to install the 3ds Max SDK. The script will also ask to add the path X:\develop\devtools to the PATH environment variable and set the GDEVTOOL variable to point to this folder.
+実行時に以下のエラーが発生した場合、再度`make_devtools.py`を実行することで、解消する場合があります。
 
-After the script completes its work, the X:\develop\devtools folder will be configured with the following SDKs and tools:
+```
+ERROR: Windows 8.1 SDK is required but not found at
+```
 
-* FidelityFX_SC - a library for image quality enhancement
-* fmod-studio-2.xx.xx [optional] - FMOD sound library
-* LLVM-15.0.7 - C/C++ compiler and libraries (Clang)
-* nasm - assembler
+また、管理者権限で実行しなかった場合、特定のプログラムのインストーラがインストールの許可を要求する場合があり、その際は許可する必要があります。
+
+3ds Max SDKを利用するか尋ねられた際に、3ds Maxを利用する予定があるのであれば「y」を押してください。
+
+また、スクリプトを実行すると `インストール先フォルダ\devtools` が環境変数PATHに追加されます。
+そして、変数 `GDEVTOOL` がこのフォルダを指すように設定するよう要求します。
+
+スクリプトの実行が完了すると、`インストール先フォルダ\devtools` フォルダが、以下のSDKとツールで構成されます。
+
+* FidelityFX_SC - 画質向上用のライブラリ
+* fmod-studio-2.xx.xx [optional] - FMOD sound のライブラリ
+* LLVM-15.0.7 - C/C++ コンパイラおよびライブラリ (Clang)
+* nasm - アセンブラ
 * max2024.sdk - 3ds Max 2004 SDK
-* openxr-1.0.16 - library for AR/VR
-* vc2019_16.10.3 - C/C++ compiler and libraries (MSVC)
+* openxr-1.0.16 - AR/VR用ライブラリ
+* vc2019_16.10.3 - C/C++ コンパイラとライブラリ (MSVC)
 * win.sdk.100 - Windows 10 SDK
 * win.sdk.81 - Windows 8.1 SDK
-* ducible.exe - a tool to make builds of Portable Executables (PEs) and PDBs reproducible
-* pdbdump.exe - a tool for dumping the content of PDB files
-* jam.exe - a small build tool that can be used as a replacement for Make
+* ducible.exe - ポータブル実行ファイルおよびPDBファイルのビルドを可能にするツール
+* pdbdump.exe - PDbファイルの内容をダンプするツール
+* jam.exe - Makeの代わりに利用可能な小規模ビルドツール
 
-Restart the command line console to make the new environment variables available.
+その後、新しい環境変数を有効にするためにコマンドラインツールを再起動してください。
 
 ## How to Build: Prebuilt Binaries
 
