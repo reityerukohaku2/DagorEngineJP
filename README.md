@@ -64,15 +64,20 @@ ERROR: Windows 8.1 SDK is required but not found at
 
 その後、新しい環境変数を有効にするためにコマンドラインツールを再起動してください。
 
-## How to Build: Prebuilt Binaries
+## ビルド済みバイナリの準備
+以下のリポジトリからビルド済みバイナリをダウンロードし、展開する必要があります。
+[https://github.com/GaijinEntertainment/DagorEngine/releases](https://github.com/GaijinEntertainment/DagorEngine/releases)
 
-You will need to download and extract additional binary files from the repository [https://github.com/GaijinEntertainment/DagorEngine/releases](https://github.com/GaijinEntertainment/DagorEngine/releases) into the X:\develop\DagorEngine folder:
+ダウンロードしたビルド済みバイナリは、`DagorEngine` フォルダに展開してください。
 
-* samples-base.7z - contains initial assets that will be compiled into binary files that will be loaded the game
-* samples-prebuilt-game.7z - contains precompiled assets
-* tools-prebuilt.7z - contains the prebuilt engine toolkit
+ダウンロードするビルド済みバイナリを以下に示します。
+* samples-base.7z - ゲームにロードされるバイナリファイルでコンパイルされる初期アセットが含まれています。
+* samples-prebuilt-game.7z - ビルド済みアセットが含まれています。
+* tools-prebuilt.7z - ビルド済みエンジンツールキットが含まれています。
 
-The directory structure should look like this:
+ここまで準備が完了すると、ディレクトリ構造は以下のようになります。
+なお、`DagorEngine`のインストール先は`X:\develop\`であると仮定しています。
+
 ```
 X:\develop\DagorEngine\tools\...
 
@@ -85,34 +90,36 @@ X:\develop\DagorEngine\samples\testGI\game
                               \testGI\prog
 ```
 
-* prog - game source code
-* develop - initial assets
-* game - directory where assets are placed after building and game executable files are located
+* prog - ゲームソースコード
+* develop - 初期アセット
+* game - ビルド後にアセットが配置されるディレクトリ。また、ゲームの実行可能ファイルも配置されます。
 
-## How to Build: Build from Source Code
+## ソースコードを元にビルド
 
-To build the "testGI" sample, navigate to the X:\develop\DagorEngine\samples\testGI\prog folder and run the "jam" command. After building, the executable file will be placed in the testGI\game folder.
+`testGI` サンプルをビルドするには、`インストール先フォルダ\samples\testGI\prog`フォルダに移動し、`jam`コマンドを実行します。<br>
+ビルド後、実行可能ファイルが`testGI\game`フォルダに配置されます。
 
-Run DagorEngine/build_all.cmd to build the entire project toolkit from the source code. This process may take a considerable amount of time.
+そして、ソースコードを元にプロジェクトツールキット全体をビルドするために `DagorEngine\build_all.cmd` を実行します。この作業には多くの時間がかかる場合があります。
 
-## Open-source roadmap
+## オープンソースロードマップ
+さらに多くのエンジンとツールがオープンソース化される予定です。<br>
+これは2023年時点の計画であり、変更される可能性もあります。
 
-We are going to open-source more parts of our Engine and tools.
-These are general and broad plans for next year, can be changed.
+### ドキュメント
+* Dagor レンダリング
+* Dagor アセットの利用方法
+* Dagor レベルエディタ
+* Dagor リアクティブGUIフレームワーク
 
-### Documentation
+### Dagorの基本的なサンプル
+- 基本的なレンダリングとゲームサンプルのバイナリとアセットソース。ゲームサンプルには以下のものがあります。
+    - 地形
+    - 雲
+    - 水
+    - 草
+    - 入力とコントロール
+- 基本的なゲームサンプルのソースコード
 
-* dagor render
-* how to work with dagor assets
-* dagor level editor
-* dagor reactive gui framework
-
-### Basic dagor samples
-
-* Binaries of basic render and game samples (terrain, clouds, water, grass; inputs and controls) with assets sources
-* Sources of basic game samples
-
-### The Pretty Games framework
-
-Framework with samples and documentation, based on daslang and dagor.
-Details yet to come.
+### 多数のゲームフレームワーク
+DaslangとDagorをベースにした、サンプルとドキュメント付きのフレームワーク。<br>
+詳細については今後公開予定です。
