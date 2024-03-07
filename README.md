@@ -126,3 +126,6 @@ X:\develop\DagorEngine\samples\testGI\game
 ### 多数のゲームフレームワーク
 DaslangとDagorをベースにした、サンプルとドキュメント付きのフレームワーク。<br>
 詳細については今後公開予定です。
+
+## おまけ
+Dagorは、日本語発音で「ダゴール」と読むらしいです。(by ChatGPT 4)
