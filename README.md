@@ -37,7 +37,7 @@ cd DagorEngine
 python3 make_devtools.py X:\develop\devtools
 ```
 
-> !Tip
+> [!TIP]
 > 実行時に以下のエラーが発生した場合、再度`make_devtools.py`を実行することで、解消する場合があります。
 >
 > ```
