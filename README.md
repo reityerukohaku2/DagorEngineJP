@@ -37,11 +37,12 @@ cd DagorEngine
 python3 make_devtools.py X:\develop\devtools
 ```
 
-実行時に以下のエラーが発生した場合、再度`make_devtools.py`を実行することで、解消する場合があります。
-
-```
-ERROR: Windows 8.1 SDK is required but not found at
-```
+> !Tip
+> 実行時に以下のエラーが発生した場合、再度`make_devtools.py`を実行することで、解消する場合があります。
+>
+> ```
+> ERROR: Windows 8.1 SDK is required but not found at
+> ```
 
 また、管理者権限で実行しなかった場合、特定のプログラムのインストーラがインストールの許可を要求する場合があり、その際は許可する必要があります。
 
