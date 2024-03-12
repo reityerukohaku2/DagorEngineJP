@@ -1,0 +1,1111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Source Files\binSceneView">
+      <UniqueIdentifier>{7227ccee-1a1a-478d-b006-2536db4492d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Clipping">
+      <UniqueIdentifier>{f68c0342-df26-4ee5-901b-c17a4b7d0f44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Clipping\bullet_write">
+      <UniqueIdentifier>{61e04f33-7cdd-4934-8442-5c6292495fbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Environment">
+      <UniqueIdentifier>{7d99f210-ddd8-4e11-ab4f-1d195faab1c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\HeightMapLand">
+      <UniqueIdentifier>{1a0d805d-c756-4ae2-9986-cdbf9c3f97d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\HeightMapLand\Brushes">
+      <UniqueIdentifier>{238deae3-53a9-4627-a06a-632516ad10b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\IvyGen">
+      <UniqueIdentifier>{af3ace84-cebe-439a-9a6a-4152d493e9a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Occluder">
+      <UniqueIdentifier>{a2b541b2-c5df-42fd-a419-e464f95d1af6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ScnExport">
+      <UniqueIdentifier>{c8d859df-31c8-480f-aeff-489a5e87a1f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\StaticGeom">
+      <UniqueIdentifier>{ff7155d4-418f-44a7-ae07-d3fc229d4ca4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\csg">
+      <UniqueIdentifier>{45d04adc-0804-44d8-b64d-54fdc960d732}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\de3dllCore">
+      <UniqueIdentifier>{fee8a9de-ed2d-4f23-905f-cc2c090aec66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\pluginService">
+      <UniqueIdentifier>{599f9976-5a35-4626-ae6b-d4e97a97271b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\services">
+      <UniqueIdentifier>{c8dfb8db-3b28-47d7-b44f-d2e6f097dec8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ssView">
+      <UniqueIdentifier>{c49b9635-267d-4be1-b02b-90f597b877ed}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="binsceneview\gridRender.cpp">
+      <Filter>Source Files\binSceneView</Filter>
+    </ClCompile>
+    <ClCompile Include="binsceneview\plugin_scn.cpp">
+      <Filter>Source Files\binSceneView</Filter>
+    </ClCompile>
+    <ClCompile Include="binsceneview\strmLevel.cpp">
+      <Filter>Source Files\binSceneView</Filter>
+    </ClCompile>
+    <ClCompile Include="clipping\clippingPlugin.cpp">
+      <Filter>Source Files\Clipping</Filter>
+    </ClCompile>
+    <ClCompile Include="clipping\collision_panel.cpp">
+      <Filter>Source Files\Clipping</Filter>
+    </ClCompile>
+    <ClCompile Include="clipping\dagListDlg.cpp">
+      <Filter>Source Files\Clipping</Filter>
+    </ClCompile>
+    <ClCompile Include="clipping\dagor_rt_write.cpp">
+      <Filter>Source Files\Clipping</Filter>
+    </ClCompile>
+    <ClCompile Include="clipping\main.cpp">
+      <Filter>Source Files\Clipping</Filter>
+    </ClCompile>
+    <ClCompile Include="clipping\bullet_write\bullet_serialize.cpp">
+      <Filter>Source Files\Clipping\bullet_write</Filter>
+    </ClCompile>
+    <ClCompile Include="environment\environmentPlugin.cpp">
+      <Filter>Source Files\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="environment\hdrSettingsDlg.cpp">
+      <Filter>Source Files\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="environment\main.cpp">
+      <Filter>Source Files\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="environment\postFX_panel.cpp">
+      <Filter>Source Files\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="environment\shGv_panel.cpp">
+      <Filter>Source Files\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="HeightmapLand\buildRoad.cpp">
+      <Filter>Source Files\HeightMapLand</Filter>
+    </ClCompile>
+    <ClCompile Include="HeightmapLand\common.cpp">
+      <Filter>Source Files\HeightMapLand</Filter>
+    </ClCompile>
+    <ClCompile Include="HeightmapLand\entityCopyDlg.cpp">
+      <Filter>Source Files\HeightMapLand</Filter>
+    </ClCompile>
+    <ClCompile Include="HeightmapLand\gpuGrassPanel.cpp">
+      <Filter>Source Files\HeightMapLand</Filter>
+    </ClCompile>
+    <ClCompile Include="HeightmapLand\hmlClipping.cpp">
+      <Filter>Source Files\HeightMapLand</Filter>
+    </ClCompile>
+    <ClCompile Include="HeightmapLand\hmlEditorEH.cpp">
+      <Filter>Source Files\HeightMapLand</Filter>
+    </ClCompile>
+    <ClCompile Include="HeightmapLand\hmlEntity.cpp">
+      <Filter>Source Files\HeightMapLand</Filter>
+    </ClCompile>
+    <ClCompile Include="HeightmapLand\hmlEventHandler.cpp">
+      <Filter>Source Files\HeightMapLand</Filter>
+    </ClCompile>
+    <ClCompile Include="HeightmapLand\hmlExport.cpp">
+      <Filter>Source Files\HeightMapLand</Filter>
+    </ClCompile>
+    <ClCompile Include="HeightmapLand\hmlExportHmap.cpp">
+      <Filter>Source Files\HeightMapLand</Filter>
+    </ClCompile>
+    <ClCompile Include="HeightmapLand\hmlExportSizeDlg.cpp">
+      <Filter>Source Files\HeightMapLand</Filter>
+    </ClCompile>
+    <ClCompile Include="HeightmapLand\hmlExportSplines.cpp">
+      <Filter>Source Files\HeightMapLand</Filter>
+    </ClCompile>
+    <ClCompile Include="HeightmapLand\hmlGenColorMap.cpp">
+      <Filter>Source Files\HeightMapLand</Filter>
+    </ClCompile>
+    <ClCompile Include="HeightmapLand\hmlHoleObject.cpp">
+      <Filter>Source Files\HeightMapLand</Filter>
+    </ClCompile>
+    <ClCompile Include="HeightmapLand\hmlIGenEditorPlugin.cpp">
+      <Filter>Source Files\HeightMapLand</Filter>
+    </ClCompile>
+    <ClCompile Include="HeightmapLand\hmlImport.cpp">
+      <Filter>Source Files\HeightMapLand</Filter>
+    </ClCompile>
+    <ClCompile Include="HeightmapLand\hmlImportExport.cpp">
+      <Filter>Source Files\HeightMapLand</Filter>
+    </ClCompile>
+    <ClCompile Include="HeightmapLand\hmlLayers.cpp">
+      <Filter>Source Files\HeightMapLand</Filter>
+    </ClCompile>
+    <ClCompile Include="HeightmapLand\hmlLight.cpp">
+      <Filter>Source Files\HeightMapLand</Filter>
+    </ClCompile>
+    <ClCompile Include="HeightmapLand\hmlLmeshHtConstrMask.cpp">
+      <Filter>Source Files\HeightMapLand</Filter>
+    </ClCompile>
+    <ClCompile Include="HeightmapLand\hmlMain.cpp">
+      <Filter>Source Files\HeightMapLand</Filter>
+    </ClCompile>
+    <ClCompile Include="HeightmapLand\hmlModifiers.cpp">
+      <Filter>Source Files\HeightMapLand</Filter>
+    </ClCompile>
+    <ClCompile Include="HeightmapLand\hmlObject.cpp">
+      <Filter>Source Files\HeightMapLand</Filter>
+    </ClCompile>
+    <ClCompile Include="HeightmapLand\hmlPanel.cpp">
+      <Filter>Source Files\HeightMapLand</Filter>
+    </ClCompile>
+    <ClCompile Include="HeightmapLand\hmlPlugin.cpp">
+      <Filter>Source Files\HeightMapLand</Filter>
+    </ClCompile>
+    <ClCompile Include="HeightmapLand\hmlRivers.cpp">
+      <Filter>Source Files\HeightMapLand</Filter>
+    </ClCompile>
+    <ClCompile Include="HeightmapLand\hmlSelTexDlg.cpp">
+      <Filter>Source Files\HeightMapLand</Filter>
+    </ClCompile>
+    <ClCompile Include="HeightmapLand\hmlSnow.cpp">
+      <Filter>Source Files\HeightMapLand</Filter>
+    </ClCompile>
+    <ClCompile Include="HeightmapLand\hmlSplineMask.cpp">
+      <Filter>Source Files\HeightMapLand</Filter>
+    </ClCompile>
+    <ClCompile Include="HeightmapLand\hmlSplineModifier.cpp">
+      <Filter>Source Files\HeightMapLand</Filter>
+    </ClCompile>
+    <ClCompile Include="HeightmapLand\hmlSplineObject.cpp">
+      <Filter>Source Files\HeightMapLand</Filter>
+    </ClCompile>
+    <ClCompile Include="HeightmapLand\hmlSplinePoint.cpp">
+      <Filter>Source Files\HeightMapLand</Filter>
+    </ClCompile>
+    <ClCompile Include="HeightmapLand\hmlSplineTriangulation.cpp">
+      <Filter>Source Files\HeightMapLand</Filter>
+    </ClCompile>
+    <ClCompile Include="HeightmapLand\importLandMesh.cpp">
+      <Filter>Source Files\HeightMapLand</Filter>
+    </ClCompile>
+    <ClCompile Include="HeightmapLand\landClassSlotsMgr.cpp">
+      <Filter>Source Files\HeightMapLand</Filter>
+    </ClCompile>
+    <ClCompile Include="HeightmapLand\loftObject.cpp">
+      <Filter>Source Files\HeightMapLand</Filter>
+    </ClCompile>
+    <ClCompile Include="HeightmapLand\materialMgr.cpp">
+      <Filter>Source Files\HeightMapLand</Filter>
+    </ClCompile>
+    <ClCompile Include="HeightmapLand\objectParam.cpp">
+      <Filter>Source Files\HeightMapLand</Filter>
+    </ClCompile>
+    <ClCompile Include="HeightmapLand\recastNavMesh.cpp">
+      <Filter>Source Files\HeightMapLand</Filter>
+    </ClCompile>
+    <ClCompile Include="HeightmapLand\renderLandNormals.cpp">
+      <Filter>Source Files\HeightMapLand</Filter>
+    </ClCompile>
+    <ClCompile Include="HeightmapLand\roadsSnapshot.cpp">
+      <Filter>Source Files\HeightMapLand</Filter>
+    </ClCompile>
+    <ClCompile Include="HeightmapLand\waterSurfGen.cpp">
+      <Filter>Source Files\HeightMapLand</Filter>
+    </ClCompile>
+    <ClCompile Include="HeightmapLand\Brushes\brushMask.cpp">
+      <Filter>Source Files\HeightMapLand\Brushes</Filter>
+    </ClCompile>
+    <ClCompile Include="HeightmapLand\Brushes\hmlAlignBrush.cpp">
+      <Filter>Source Files\HeightMapLand\Brushes</Filter>
+    </ClCompile>
+    <ClCompile Include="HeightmapLand\Brushes\hmlBrush.cpp">
+      <Filter>Source Files\HeightMapLand\Brushes</Filter>
+    </ClCompile>
+    <ClCompile Include="HeightmapLand\Brushes\hmlHillBrush.cpp">
+      <Filter>Source Files\HeightMapLand\Brushes</Filter>
+    </ClCompile>
+    <ClCompile Include="HeightmapLand\Brushes\hmlScriptBrush.cpp">
+      <Filter>Source Files\HeightMapLand\Brushes</Filter>
+    </ClCompile>
+    <ClCompile Include="HeightmapLand\Brushes\hmlShadowsBrush.cpp">
+      <Filter>Source Files\HeightMapLand\Brushes</Filter>
+    </ClCompile>
+    <ClCompile Include="HeightmapLand\Brushes\hmlSmoothBrush.cpp">
+      <Filter>Source Files\HeightMapLand\Brushes</Filter>
+    </ClCompile>
+    <ClCompile Include="IvyGen\ivyGeomGen.cpp">
+      <Filter>Source Files\IvyGen</Filter>
+    </ClCompile>
+    <ClCompile Include="IvyGen\ivyObject.cpp">
+      <Filter>Source Files\IvyGen</Filter>
+    </ClCompile>
+    <ClCompile Include="IvyGen\ivyObjectsEditor.cpp">
+      <Filter>Source Files\IvyGen</Filter>
+    </ClCompile>
+    <ClCompile Include="IvyGen\main.cpp">
+      <Filter>Source Files\IvyGen</Filter>
+    </ClCompile>
+    <ClCompile Include="IvyGen\plugin.cpp">
+      <Filter>Source Files\IvyGen</Filter>
+    </ClCompile>
+    <ClCompile Include="Occluders\main_occ.cpp">
+      <Filter>Source Files\Occluder</Filter>
+    </ClCompile>
+    <ClCompile Include="Occluders\objEd_occ.cpp">
+      <Filter>Source Files\Occluder</Filter>
+    </ClCompile>
+    <ClCompile Include="Occluders\occluder.cpp">
+      <Filter>Source Files\Occluder</Filter>
+    </ClCompile>
+    <ClCompile Include="Occluders\plugin_occ.cpp">
+      <Filter>Source Files\Occluder</Filter>
+    </ClCompile>
+    <ClCompile Include="ScnExport\main.cpp">
+      <Filter>Source Files\ScnExport</Filter>
+    </ClCompile>
+    <ClCompile Include="ScnExport\scnExportPlugin.cpp">
+      <Filter>Source Files\ScnExport</Filter>
+    </ClCompile>
+    <ClCompile Include="csg\box_csg.cpp">
+      <Filter>Source Files\csg</Filter>
+    </ClCompile>
+    <ClCompile Include="csg\csg.cpp">
+      <Filter>Source Files\csg</Filter>
+    </ClCompile>
+    <ClCompile Include="csg\main.cpp">
+      <Filter>Source Files\csg</Filter>
+    </ClCompile>
+    <ClCompile Include="csg\objEd_csg.cpp">
+      <Filter>Source Files\csg</Filter>
+    </ClCompile>
+    <ClCompile Include="csg\plugin.cpp">
+      <Filter>Source Files\csg</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticGeom\main.cpp">
+      <Filter>Source Files\StaticGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticGeom\plugin.cpp">
+      <Filter>Source Files\StaticGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="de3dllCore\initGlobals.cpp">
+      <Filter>Source Files\de3dllCore</Filter>
+    </ClCompile>
+    <ClCompile Include="pluginService\de_IDagorPhysImpl.cpp">
+      <Filter>Source Files\pluginService</Filter>
+    </ClCompile>
+    <ClCompile Include="services\animCharMgr\animCharMgr.cpp">
+      <Filter>Source Files\services</Filter>
+    </ClCompile>
+    <ClCompile Include="services\animCharMgr\toolAnimcharES.cpp.gen.es.cpp">
+      <Filter>Source Files\services</Filter>
+    </ClCompile>
+    <ClCompile Include="services\assetSrv\assetSrv.cpp">
+      <Filter>Source Files\services</Filter>
+    </ClCompile>
+    <ClCompile Include="services\assetSrv\genObj.cpp">
+      <Filter>Source Files\services</Filter>
+    </ClCompile>
+    <ClCompile Include="services\assetSrv\landClassMgr.cpp">
+      <Filter>Source Files\services</Filter>
+    </ClCompile>
+    <ClCompile Include="services\assetSrv\loft.cpp">
+      <Filter>Source Files\services</Filter>
+    </ClCompile>
+    <ClCompile Include="services\assetSrv\splineClassMgr.cpp">
+      <Filter>Source Files\services</Filter>
+    </ClCompile>
+    <ClCompile Include="services\bitMaskMgr\bitMaskMgr.cpp">
+      <Filter>Source Files\services</Filter>
+    </ClCompile>
+    <ClCompile Include="services\builtSceneView\sceneView.cpp">
+      <Filter>Source Files\services</Filter>
+    </ClCompile>
+    <ClCompile Include="services\cableSrv\cableSrv.cpp">
+      <Filter>Source Files\services</Filter>
+    </ClCompile>
+    <ClCompile Include="services\carCamera\steering.cpp">
+      <Filter>Source Files\services</Filter>
+    </ClCompile>
+    <ClCompile Include="services\carCamera\camera_controller.cpp">
+      <Filter>Source Files\services</Filter>
+    </ClCompile>
+    <ClCompile Include="services\carCamera\car_obj.cpp">
+      <Filter>Source Files\services</Filter>
+    </ClCompile>
+    <ClCompile Include="services\carCamera\car_phys.cpp">
+      <Filter>Source Files\services</Filter>
+    </ClCompile>
+    <ClCompile Include="services\carCamera\carDriver.cpp">
+      <Filter>Source Files\services</Filter>
+    </ClCompile>
+    <ClCompile Include="services\carCamera\joystickParams.cpp">
+      <Filter>Source Files\services</Filter>
+    </ClCompile>
+    <ClCompile Include="services\carCamera\phys.inc.cpp">
+      <Filter>Source Files\services</Filter>
+    </ClCompile>
+    <ClCompile Include="services\carCamera\phys_bullet.cpp">
+      <Filter>Source Files\services</Filter>
+    </ClCompile>
+    <ClCompile Include="services\carCamera\joystickDrv\joy_drv.cpp">
+      <Filter>Source Files\services</Filter>
+    </ClCompile>
+    <ClCompile Include="services\colorRangeSrv\colorRangeSrv.cpp">
+      <Filter>Source Files\services</Filter>
+    </ClCompile>
+    <ClCompile Include="services\compositMgr\compositMgrService.cpp">
+      <Filter>Source Files\services</Filter>
+    </ClCompile>
+    <ClCompile Include="services\csgEntMgr\prefabCache.cpp">
+      <Filter>Source Files\services</Filter>
+    </ClCompile>
+    <ClCompile Include="services\csgEntMgr\csgApi.cpp">
+      <Filter>Source Files\services</Filter>
+    </ClCompile>
+    <ClCompile Include="services\csgEntMgr\csgEntityMgrService.cpp">
+      <Filter>Source Files\services</Filter>
+    </ClCompile>
+    <ClCompile Include="services\dasMgr\dasManager.cpp">
+      <Filter>Source Files\services</Filter>
+    </ClCompile>
+    <ClCompile Include="services\dxpFactory\dxpFactory.cpp">
+      <Filter>Source Files\services</Filter>
+    </ClCompile>
+    <ClCompile Include="services\dynModelMgr\dynModelMgr.cpp">
+      <Filter>Source Files\services</Filter>
+    </ClCompile>
+    <ClCompile Include="services\dynRenderSrv\dynRender.cpp">
+      <Filter>Source Files\services</Filter>
+    </ClCompile>
+    <ClCompile Include="services\dynRenderSrv\tonemapUpdES.cpp.gen.es.cpp">
+      <Filter>Source Files\services</Filter>
+    </ClCompile>
+    <ClCompile Include="services\ecsInput\toolInputES.cpp.gen.es.cpp">
+      <Filter>Source Files\services</Filter>
+    </ClCompile>
+    <ClCompile Include="services\ecsMgr\ecsManager.cpp">
+      <Filter>Source Files\services</Filter>
+    </ClCompile>
+    <ClCompile Include="services\ecsMgr\ecsPull.cpp">
+      <Filter>Source Files\services</Filter>
+    </ClCompile>
+    <ClCompile Include="services\efxMgr\efxMgrService.cpp">
+      <Filter>Source Files\services</Filter>
+    </ClCompile>
+    <ClCompile Include="services\entFilters\entFilters.cpp">
+      <Filter>Source Files\services</Filter>
+    </ClCompile>
+    <ClCompile Include="services\fileTracker\fileTracker.cpp">
+      <Filter>Source Files\services</Filter>
+    </ClCompile>
+    <ClCompile Include="services\fxMgr\fxMgrService.cpp">
+      <Filter>Source Files\services</Filter>
+    </ClCompile>
+    <ClCompile Include="services\gameobjMgr\gameobjMgr.cpp">
+      <Filter>Source Files\services</Filter>
+    </ClCompile>
+    <ClCompile Include="services\grassSrv\grassSrv.cpp">
+      <Filter>Source Files\services</Filter>
+    </ClCompile>
+    <ClCompile Include="services\grassSrv\gpuGrassSrv.cpp">
+      <Filter>Source Files\services</Filter>
+    </ClCompile>
+    <ClCompile Include="services\hmapSrv\hmapSrv.cpp">
+      <Filter>Source Files\services</Filter>
+    </ClCompile>
+    <ClCompile Include="services\imguiMgr\imguiManager.cpp">
+      <Filter>Source Files\services</Filter>
+    </ClCompile>
+    <ClCompile Include="services\invalidEntityMgr\invalidEntMgrService.cpp">
+      <Filter>Source Files\services</Filter>
+    </ClCompile>
+    <ClCompile Include="services\lightSrv\lightSrv.cpp">
+      <Filter>Source Files\services</Filter>
+    </ClCompile>
+    <ClCompile Include="services\physobjMgr\physobjMgr.cpp">
+      <Filter>Source Files\services</Filter>
+    </ClCompile>
+    <ClCompile Include="services\pixelPerfectSelection\pixelPerfectSelectionService.cpp">
+      <Filter>Source Files\services</Filter>
+    </ClCompile>
+    <ClCompile Include="services\pixelPerfectSelection\pixelPerfectSelection.cpp">
+      <Filter>Source Files\services</Filter>
+    </ClCompile>
+    <ClCompile Include="services\prefabMgr\prefabMgrService.cpp">
+      <Filter>Source Files\services</Filter>
+    </ClCompile>
+    <ClCompile Include="services\riMgr\riMgrServiceAces.cpp">
+      <Filter>Source Files\services</Filter>
+    </ClCompile>
+    <ClCompile Include="services\skiesSrv\skiesSrv.cpp">
+      <Filter>Source Files\services</Filter>
+    </ClCompile>
+    <ClCompile Include="services\splineGenSrv\spline.cpp">
+      <Filter>Source Files\services</Filter>
+    </ClCompile>
+    <ClCompile Include="services\splineGenSrv\splineGenService.cpp">
+      <Filter>Source Files\services</Filter>
+    </ClCompile>
+    <ClCompile Include="services\splineGenSrv\genLoft.cpp">
+      <Filter>Source Files\services</Filter>
+    </ClCompile>
+    <ClCompile Include="services\splineGenSrv\genObjs.cpp">
+      <Filter>Source Files\services</Filter>
+    </ClCompile>
+    <ClCompile Include="services\waterProjFxSrv\waterProjFxSrv.cpp">
+      <Filter>Source Files\services</Filter>
+    </ClCompile>
+    <ClCompile Include="services\waterSrv\waterSrv.cpp">
+      <Filter>Source Files\services</Filter>
+    </ClCompile>
+    <ClCompile Include="services\webui\webuiAdapter.cpp">
+      <Filter>Source Files\services</Filter>
+    </ClCompile>
+    <ClCompile Include="services\wind\windSrv.cpp">
+      <Filter>Source Files\services</Filter>
+    </ClCompile>
+    <ClCompile Include="ssView\main_ssv.cpp">
+      <Filter>Source Files\ssView</Filter>
+    </ClCompile>
+    <ClCompile Include="ssView\plugin_ssv.cpp">
+      <Filter>Source Files\ssView</Filter>
+    </ClCompile>
+    <ClCompile Include="srvEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="car_camera_elem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dagorEd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dagored_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="de_aboutdlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="de_apphandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="de_appwnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="de_appwndConCmd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="de_batch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="de_brush.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="de_clipping.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="de_ecsPull.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="de_engine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="de_environment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="de_exportlevel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="de_ExportToDagDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="de_ProjectSettings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="de_screenshotMetaInfoLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="de_startdlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="de_version.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="de_viewportWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="de_workspace.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="plugin_dlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="splashScreen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="services\animcharmgr\toolAnimcharES.cpp.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="services\dynrendersrv\tonemapUpdES.cpp.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="services\ecsinput\toolInputES.cpp.inl">
+      <Filter>Header Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="de_aboutdlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="de_apphandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="de_appwnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="de_batch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="de_batch_log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="de_ExportToDagDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="de_plugindata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="de_ProjectSettings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="de_screenshotMetaInfoLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="de_startdlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="de_viewportWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="plugin_dlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="splashScreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="binsceneview\gridRender.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="binsceneview\plugin_scn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="binsceneview\strmlevel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clipping\clippingCm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clipping\clippingPlugin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clipping\clipping_builder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clipping\collision_panel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clipping\dagListDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clipping\physMesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csg\box_csg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csg\csg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csg\objEd_csg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csg\plugin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="environment\environmentCommands.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="environment\environmentPlugin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="environment\hdrSettingsDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="environment\postFX_panel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="environment\shGV_panel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="heightmapland\common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="heightmapland\crossRoad.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="heightmapland\editorLandRayTracer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="heightmapland\entityCopyDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="heightmapland\GPUGrassDecalPID.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="heightmapland\gpuGrassPanel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="heightmapland\GPUGrassTypePID.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="heightmapland\hmlCm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="heightmapland\hmlEntity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="heightmapland\hmlExportSizeDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="heightmapland\hmlHoleObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="heightmapland\hmlLayers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="heightmapland\hmlLight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="heightmapland\hmlObjectsEditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="heightmapland\hmlPanel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="heightmapland\hmlPlugin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="heightmapland\hmlSelTexDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="heightmapland\hmlSnow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="heightmapland\hmlSplineObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="heightmapland\hmlSplinePoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="heightmapland\hmlSplineUndoRedo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="heightmapland\landClassSlotsMgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="heightmapland\landMeshMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="heightmapland\materialMgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="heightmapland\objectParam.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="heightmapland\recastNavMesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="heightmapland\renderLandNormals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="heightmapland\roadBuilderIface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="heightmapland\roadsSnapshot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="heightmapland\roadUtil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="heightmapland\brushes\brushMask.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="heightmapland\brushes\hmlAlignBrush.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="heightmapland\brushes\hmlBrush.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="heightmapland\brushes\hmlHillBrush.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="heightmapland\brushes\hmlScriptBrush.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="heightmapland\brushes\hmlShadowsBrush.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="heightmapland\brushes\hmlSmoothBrush.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\de3_animCtrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\de3_assetService.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\de3_baseInterfaces.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\de3_bitMaskMgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\de3_box_vs_tri.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\de3_cableSrv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\de3_collisionPreview.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\de3_colorRangeService.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\de3_composit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\de3_csgEntity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\de3_dataBlockIdHolder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\de3_drawInvalidEntities.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\de3_dxpFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\de3_dynRenderService.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\de3_editorEvents.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\de3_entityCollision.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\de3_entityFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\de3_entityGatherTex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\de3_entityGetSceneLodsRes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\de3_entityPool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\de3_entityUserData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\de3_fileTracker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\de3_fmodService.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\de3_gameLadder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\de3_genGrassByDensGridMask.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\de3_genHmapData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\de3_genObjAlongSpline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\de3_genObjByDensGridMask.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\de3_genObjByMask.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\de3_genObjData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\de3_genObjHierMask.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\de3_genObjInsidePoly.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\de3_genObjUtil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\de3_gpuGrassService.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\de3_grassPlanting.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\de3_grassSrv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\de3_heightmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\de3_hmapDetLayerProps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\de3_hmapService.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\de3_hmapStorage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\de3_huid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\de3_interface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\de3_landClassData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\de3_landMeshData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\de3_levelBinLoad.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\de3_lightProps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\de3_lightService.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\de3_lodController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\de3_multiPointData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\de3_navmeshObstacle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\de3_objEntity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\de3_occluderGeomProvider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\de3_occludersFromGeom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\de3_pixelPerfectSelectionService.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\de3_prefabs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\de3_randomSeed.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\de3_rasterizePoly.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\de3_rendInstGen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\de3_roadsProvider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\de3_skiesService.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\de3_splineClassData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\de3_splineGenSrv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\de3_waterProjFxSrv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\de3_waterSrv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\de3_windService.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\de3_writeObjsToPlaceDump.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ecs\inputEvents.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ecs\renderEvents.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\oldeditor\de_brush.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\oldeditor\de_clipping.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\oldeditor\de_cm.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\oldeditor\de_common_interface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\oldeditor\de_decl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\oldeditor\de_interface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\oldeditor\de_util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\oldeditor\de_workspace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\oldeditor\exportToLightTool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\oldeditor\iClipping.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\oldeditor\pluginservice\de_IDagorPhys.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ivygen\ivyObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ivygen\ivyObjectsEditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ivygen\plugin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="occluders\decl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="occluders\objEd_occ.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="occluders\occluder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="occluders\plugin_occ.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginservice\de_IDagorPhysImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="scnexport\scnExportPlugin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="services\assetsrv\flags.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="services\assetsrv\landClassMgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="services\assetsrv\splineClassMgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="services\carcamera\camera_controller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="services\carcamera\carDriver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="services\carcamera\car_obj.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="services\carcamera\car_phys.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="services\carcamera\gamepadButtons.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="services\carcamera\joystickParams.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="services\carcamera\steering.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="services\carcamera\steeringAssistConsts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="services\carcamera\joystickdrv\joy_drv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="services\csgentmgr\csgApi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="services\csgentmgr\prefabCache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="services\grasssrv\gpuGrassSrv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="services\hmapsrv\detailRenderData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="services\pixelperfectselection\pixelPerfectSelection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ssview\decl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ssview\plugin_ssv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ssview\sceneHolder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="staticgeom\plugin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="_res\de.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
